@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DuettChallenge.Application", "DuettChallenge.Application", "{B24DA662-688F-4526-A886-511A14BB73CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DuettChallenge.CrossCutting", "DuettChallenge.CrossCutting", "{D191F515-95C7-4AAE-96D8-E2548B3D477E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DuettChallenge.Business", "DuettChallenge.Business", "{29AF065A-201D-4EE9-8108-FA53E90CB862}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DuettChallenge.Data", "DuettChallenge.Data", "{C2DE09E8-C698-46C9-8BF6-7C0504D1FC56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuettChallenge.Data", "DuettChallenge.Data\DuettChallenge.Data.csproj", "{FFCD7A02-64B3-47B0-8855-B89C441FC10B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuettChallenge.Business", "DuetChallenge.Business\DuettChallenge.Business.csproj", "{6A84AF7C-7C67-42C9-9F92-86E8FEC0B131}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "DuetChallenge.Application\Api\Api.csproj", "{811F8D2B-9A8B-4DFA-BEA4-00640CB9D27F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuettChallenge.CrossCutting", "DuettChallenge.CrossCutting\DuettChallenge.CrossCutting.csproj", "{8415E2DD-EB8A-4030-8B01-56CE9D267A33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFCD7A02-64B3-47B0-8855-B89C441FC10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCD7A02-64B3-47B0-8855-B89C441FC10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCD7A02-64B3-47B0-8855-B89C441FC10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCD7A02-64B3-47B0-8855-B89C441FC10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A84AF7C-7C67-42C9-9F92-86E8FEC0B131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A84AF7C-7C67-42C9-9F92-86E8FEC0B131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A84AF7C-7C67-42C9-9F92-86E8FEC0B131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A84AF7C-7C67-42C9-9F92-86E8FEC0B131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{811F8D2B-9A8B-4DFA-BEA4-00640CB9D27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811F8D2B-9A8B-4DFA-BEA4-00640CB9D27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811F8D2B-9A8B-4DFA-BEA4-00640CB9D27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811F8D2B-9A8B-4DFA-BEA4-00640CB9D27F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8415E2DD-EB8A-4030-8B01-56CE9D267A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8415E2DD-EB8A-4030-8B01-56CE9D267A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8415E2DD-EB8A-4030-8B01-56CE9D267A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8415E2DD-EB8A-4030-8B01-56CE9D267A33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFCD7A02-64B3-47B0-8855-B89C441FC10B} = {C2DE09E8-C698-46C9-8BF6-7C0504D1FC56}
+		{6A84AF7C-7C67-42C9-9F92-86E8FEC0B131} = {29AF065A-201D-4EE9-8108-FA53E90CB862}
+		{811F8D2B-9A8B-4DFA-BEA4-00640CB9D27F} = {B24DA662-688F-4526-A886-511A14BB73CB}
+		{8415E2DD-EB8A-4030-8B01-56CE9D267A33} = {D191F515-95C7-4AAE-96D8-E2548B3D477E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A931521-91DD-49F6-96D1-4A5570B7EEF6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+PC9eXR+mWwXESzSviF97umr6ynEdbgkdwDE/ESO+WVcV8tpl2k+JWLg2jzVRcHOpl/DGDPBF5DRViL+xC513Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\claud\\OneDrive\\Área de Trabalho\\testeDuett\\backend\\DuettChallenger\\DuetChallenge.Business\\DuettChallenge.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\claud\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\oneof\\3.0.223\\oneof.3.0.223.nupkg.sha512"
+  ],
+  "logs": []
+}
