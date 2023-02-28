@@ -12,6 +12,10 @@ dotnet run
 ```
 1.2 Em seguida, iniciamos o nosso frontend, e podemos fazer isso no *diretório app*, executando o seguinte comando:
 ```
+yarn
+```
+E em seguida:
+```
 yarn start
 ```
 
